@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "The Venture-Ready Platform — Globant EdTech Studio" },
-      { name: "description", content: "A strategic reinvention of an EdTech platform — Theory-as-a-Service, Contextual Theory Injection, Venture Challenges. PM Homework for Globant." },
+      { title: "The Venture-Ready Platform — EdTech Studio" },
+      { name: "description", content: "A strategic reinvention of an EdTech platform Theory-as-a-Service, Contextual Theory Injection, Venture Challenges. PM Homework for Globant." },
       { name: "author", content: "Globant EdTech Studio" },
-      { property: "og:title", content: "The Venture-Ready Platform" },
-      { property: "og:description", content: "A complete reinvention of how an EdTech platform delivers knowledge — inspired by Tetr × built for Globant." },
+      { property: "og:title", content: "The Venture-Ready Platform — EdTech Studio" },
+      { property: "og:description", content: "A strategic reinvention of an EdTech platform Theory-as-a-Service, Contextual Theory Injection, Venture Challenges. PM Homework for Globant." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "The Venture-Ready Platform — EdTech Studio" },
+      { name: "twitter:description", content: "A strategic reinvention of an EdTech platform Theory-as-a-Service, Contextual Theory Injection, Venture Challenges. PM Homework for Globant." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/157811d9-d7d6-46e7-9ef5-c9b278a3cf25/id-preview-bce86b75--b1ccaa7d-b6de-4945-bab8-ec7de668817c.lovable.app-1778465642710.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/157811d9-d7d6-46e7-9ef5-c9b278a3cf25/id-preview-bce86b75--b1ccaa7d-b6de-4945-bab8-ec7de668817c.lovable.app-1778465642710.png" },
     ],
     links: [
       {
