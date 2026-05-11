@@ -303,11 +303,3 @@ Based in Colombia · Available for remote US-based roles
 *"The 80% absence rate is not a motivation problem.
 It is a delivery architecture problem. We solved it."*
 
-
----
-
-## Por qué este README funciona como portfolio piece
-
-Tiene todo lo que un reclutador tech busca cuando revisa el GitHub de un candidato PM. La URL del prototipo live en la primera línea, así no tiene que buscarla. El problema y la solución en dos párrafos antes de cualquier detalle técnico. Los frameworks nombrados explícitamente para que los filtros de ATS los capturen. La sección de Skills Demonstrated que traduce el trabajo en capacidades concretas. Y el Business Case con números reales que demuestran que pensás en impacto, no solo en features.
-
-¿Querés que ajustemos algo antes de subirlo?
