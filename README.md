@@ -2,6 +2,8 @@
 ### A PM Case Study — EdTech Platform Reinvention
 **Prepared for Globant EdTech Studio | PM / Delivery Manager Interview**
 
+[View the interactive prototype →]([YOUR-LOVABLE-URL-HERE](https://venture-ready-flow.lovable.app/))
+
 ## What This Is
 
 This is a complete product management case study built for a technical interview
