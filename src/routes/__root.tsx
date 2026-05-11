@@ -72,11 +72,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "The Venture-Ready Platform — Globant EdTech Studio" },
+      { name: "description", content: "A strategic reinvention of an EdTech platform — Theory-as-a-Service, Contextual Theory Injection, Venture Challenges. PM Homework for Globant." },
+      { name: "author", content: "Globant EdTech Studio" },
+      { property: "og:title", content: "The Venture-Ready Platform" },
+      { property: "og:description", content: "A complete reinvention of how an EdTech platform delivers knowledge — inspired by Tetr × built for Globant." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
@@ -96,8 +96,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet"
+        />
         <HeadContent />
       </head>
       <body>
